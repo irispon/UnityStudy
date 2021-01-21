@@ -14,7 +14,7 @@ async Tast<string) abc()
 
 {
 
-​	return "string"
+​	return await "string"
 
 }
 
