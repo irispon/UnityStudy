@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: aff0e04cf0588ad48a086ed97c25b85a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Nanum NaEuiANaeSonGeurSsi
+  fontNames:
+  - Nanum NaEuiANaeSonGeurSsi
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
