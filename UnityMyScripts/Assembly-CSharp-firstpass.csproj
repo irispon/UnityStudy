@@ -581,29 +581,29 @@
     <Reference Include="UnityEditor">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="SuperSocket.ClientEngine.Proxy">
-      <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Assets/Plugins/SuperSocket.ClientEngine.Proxy.dll</HintPath>
-    </Reference>
-    <Reference Include="SocketIO">
-      <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Assets/Plugins/SocketIO.dll</HintPath>
-    </Reference>
-    <Reference Include="SuperSocket.ClientEngine.Core">
-      <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Assets/Plugins/SuperSocket.ClientEngine.Core.dll</HintPath>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Assets/Plugins/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="SimpleJson">
       <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Assets/Plugins/SimpleJson.dll</HintPath>
     </Reference>
-    <Reference Include="WebSocket4Net">
-      <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Assets/Plugins/WebSocket4Net.dll</HintPath>
+    <Reference Include="SocketIO">
+      <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Assets/Plugins/SocketIO.dll</HintPath>
     </Reference>
     <Reference Include="SuperSocket.ClientEngine.Common">
       <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Assets/Plugins/SuperSocket.ClientEngine.Common.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Assets/Plugins/Newtonsoft.Json.dll</HintPath>
+    <Reference Include="SuperSocket.ClientEngine.Core">
+      <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Assets/Plugins/SuperSocket.ClientEngine.Core.dll</HintPath>
     </Reference>
     <Reference Include="SuperSocket.ClientEngine.Protocol">
       <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Assets/Plugins/SuperSocket.ClientEngine.Protocol.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.ClientEngine.Proxy">
+      <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Assets/Plugins/SuperSocket.ClientEngine.Proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSocket4Net">
+      <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Assets/Plugins/WebSocket4Net.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -962,11 +962,20 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.CacheServer">
+      <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Library/ScriptAssemblies/UnityEditor.CacheServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+      <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Library/ScriptAssemblies/Unity.ResourceManager.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -974,11 +983,20 @@
     <Reference Include="Unity.Timeline">
       <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Addressables.Editor">
+      <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Library/ScriptAssemblies/Unity.Addressables.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Library/ScriptAssemblies/Unity.Addressables.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline">
+      <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
