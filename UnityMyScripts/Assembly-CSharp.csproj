@@ -162,6 +162,10 @@
     <Compile Include="Assets\WUtill\Data\WAdressableManager.cs" />
     <Compile Include="Assets\WUtill\Data\WAssetBundle.cs" />
     <Compile Include="Assets\WUtill\Data\WAssetDownloadSystem.cs" />
+    <Compile Include="Assets\WUtill\Thread\Prototype\IResult.cs" />
+    <Compile Include="Assets\WUtill\Thread\Prototype\ITask.cs" />
+    <Compile Include="Assets\WUtill\Thread\Prototype\Program.cs" />
+    <Compile Include="Assets\WUtill\Thread\Prototype\WThreadManager.cs" />
     <Compile Include="Assets\WUtill\UI\WSizeFitter\ISizeFitter.cs" />
     <Compile Include="Assets\WUtill\UI\WSizeFitter\WSizeManager.cs" />
     <None Include="Assets\Utill\Asset\LightningBolt\Readme.txt" />
