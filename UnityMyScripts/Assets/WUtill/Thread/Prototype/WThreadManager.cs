@@ -28,6 +28,7 @@ namespace prototype
             {
                 enableThread = true;
                 threads = new Task[(int)(Environment.ProcessorCount*0.75)];
+                Debug.Log((int)(Environment.ProcessorCount * 0.75));
             }
             else
             {
