@@ -9,13 +9,17 @@ using UnityEngine;
 
 namespace WThread
 {
-    //타임 스레드
+    //타임 스레드-event invok 스레드 <타임 스레드 같은 경우는 코루틴 처리가 좋을거 같기도 함.
     //블록킹 스레드
+    //뭐커 스레드.
+
     public class WThreadManager  : MonoBehaviour
     {
-        private Queue<Action> longTasks;
-        private Queue<Action> shortTasks;
-        public static Queue<WorkerThread> threadQue;
+        public int WorkerNumber;
+        public int BlockingNumber;
+        public int TimeNumber;
+
+        public static Queue<WorkerThread> threadQueue;
         public static WThreadManager GET { get ; private set; }
         // Start is called before the first frame update
         private void Awake()
@@ -26,21 +30,21 @@ namespace WThread
             else
                 Destroy(this);
 
-            threadQue = new Queue<WorkerThread>();
+            threadQueue = new Queue<WorkerThread>();
         }
-        public void EnQueThread(WorkerThread thread)
+        public void EnQueueThread(WorkerThread thread)
         {
             thread.action = null;
             thread.onUIThread = null;
-            threadQue.Enqueue(thread);
+            threadQueue.Enqueue(thread);
 
         }
-        public WorkerThread DeQueThread(Action work =null,Action ui=null)
+        public WorkerThread DeQueueThread(Action work =null,Action ui=null)
         {
             WorkerThread thread=null;
-            if (threadQue.Count > 0)
+            if (threadQueue.Count > 0)
             {
-                thread = threadQue.Dequeue();
+                thread = threadQueue.Dequeue();
                 thread.action = work;
                 thread.onUIThread = ui;
             }
@@ -54,8 +58,7 @@ namespace WThread
         }
         void Init()
         {
-            longTasks = new Queue<Action>();
-            shortTasks = new Queue<Action>();
+
         }
 
         // Update is called once per frame

@@ -14,7 +14,7 @@ namespace WThread
         /// </summary>
        public Action action;
        public Action onUIThread;
-        private WThreadManager manager = WThreadManager.GET;
+       private WThreadManager manager = WThreadManager.GET;
        Task child = null;
        bool isWork=true;
        EventWaitHandle childWait = new EventWaitHandle(true, EventResetMode.ManualReset);
@@ -40,6 +40,7 @@ namespace WThread
 
         public void Awake()
         {
+            manager.EnQueueThread(this);
             child = new Task(Work);
             child.Start();
         }
