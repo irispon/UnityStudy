@@ -14,13 +14,13 @@ namespace WThread
         /// </summary>
        public Action action;
        public Action onUIThread;
-       private WThreadManager manager = WThreadManager.GET;
+        private WThreadManager manager;
        Task child = null;
        bool isWork=true;
        EventWaitHandle childWait = new EventWaitHandle(true, EventResetMode.ManualReset);
        EventWaitHandle mainWait = new EventWaitHandle(true, EventResetMode.ManualReset);
+        public int number;
       
-
        public virtual void Work()
         {
             childWait.Reset();
@@ -30,8 +30,6 @@ namespace WThread
                 childWait.Reset();
                 if (action != null)
                     action();
-
-
                 mainWait.Set();
                 childWait.WaitOne();
             }
@@ -40,9 +38,11 @@ namespace WThread
 
         public void Awake()
         {
-            manager.EnQueueThread(this);
+            manager = WThreadManager.GET;
+    //        manager.EnQueueThread(this);
             child = new Task(Work);
             child.Start();
+            
         }
         private void Update()
         {
