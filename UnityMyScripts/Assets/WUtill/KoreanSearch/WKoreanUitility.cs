@@ -136,7 +136,7 @@ namespace WKoreanSearch
             return elementArray;
         }
         /// <summary>
-        /// 각 단어의 초성을 추출해서 호환성 문자로 변경함 ( ex) 정파 => ㅈㅍ(초성) => ㅈㅍ(호환언어)
+        /// 각 단어의 초성을 추출함 (가나다라마바사 =>ㄱㄴㄷㄹㅁㅂㅅ)
         /// 일반적인 자음도 초성으로 분류함.
         /// </summary>
         /// <param name="source"></param>
@@ -211,7 +211,7 @@ namespace WKoreanSearch
             string _tmpName = searchedText.Replace(" ", "");//공백 제거
             string _tmpSearchText = searchText;
             string _literal = DivideFirstLiteral(_tmpSearchText);//검색할 아이템 이름을 문자로 변경 => 정파 =>ㅈㅍ
-            string _itemListeral = DivideFirstLiteral(_tmpName.Replace(" ", ""));//아이템 이름 문자로 변경 =>정파검 =>ㅈㅍㄱ
+            string _itemListeral = DivideFirstLiteral(_tmpName.Replace(" ", ""));//아이템 이름 문자로 변경 =>가나다 =>ㄱㄴㄷ
 
             int index = -1;
 
