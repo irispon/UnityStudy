@@ -12,8 +12,10 @@ namespace WThread
         /// <summary>
         /// 스레드 작업
         /// </summary>
-       public Action action;
-       public Action onUIThread;
+       public Action thread;
+       public Action update;
+       public Queue<WThreadData> datas;
+       public Action schedule;//이건 삭제 해야할 수도 있음.
         private WThreadManager manager;
        Task child = null;
        bool isWork=true;
@@ -28,8 +30,9 @@ namespace WThread
             while (isWork)
             {
                 childWait.Reset();
-                if (action != null)
-                    action();
+                thread?.Invoke();
+                if (datas != null) ;
+                   
                 mainWait.Set();
                 childWait.WaitOne();
             }
@@ -48,8 +51,7 @@ namespace WThread
         {
             mainWait.WaitOne();
             mainWait.Reset();
-            if (onUIThread != null)
-                onUIThread();
+            update?.Invoke();
             childWait.Set();
         }
         public void OnDestroy()

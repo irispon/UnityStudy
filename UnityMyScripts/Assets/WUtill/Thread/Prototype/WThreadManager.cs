@@ -20,6 +20,8 @@ namespace WThread
         public int TimeNumber;
 
         public static Queue<WorkerThread> threadQueue;
+        public static Queue<Action> high;
+        public static Queue<Action> low;
         public static WThreadManager GET { get ; private set; }
         // Start is called before the first frame update
         private void Awake()
@@ -34,19 +36,20 @@ namespace WThread
         }
         public void EnQueueThread(WorkerThread thread)
         {
-            thread.action = null;
-            thread.onUIThread = null;
+            thread.thread = null;
+            thread.update = null;
             threadQueue.Enqueue(thread);
 
         }
-        public WorkerThread DeQueueThread(Action work =null,Action ui=null)
+        public WorkerThread DeQueueThread(Action work =null,Action ui=null,Action schedule=null)
         {
             WorkerThread thread=null;
             if (threadQueue.Count > 0)
             {
                 thread = threadQueue.Dequeue();
-                thread.action = work;
-                thread.onUIThread = ui;
+                thread.thread = work;
+                thread.update = ui;
+                thread.schedule = schedule;
             }
 
             return thread;
@@ -58,9 +61,20 @@ namespace WThread
         }
         void Init()
         {
-
+            high = new Queue<Action>();
+            low = new Queue<Action>();
         }
-
+        public void AddSchesule(Action action,bool isHigh=false)
+        {
+            if (isHigh)
+            {
+                high.Enqueue(action);
+            }
+            else
+            {
+                low.Enqueue(action);
+            }
+        }
         // Update is called once per frame
         void Update()
         {
