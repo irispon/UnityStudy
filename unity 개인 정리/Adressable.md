@@ -29,9 +29,9 @@ Addressable
  
 
 A simple rule based addressable asset importer. It marks assets as addressable, by applying to files having a path matching the rule pattern.
- 
+
  https://github.com/favoyang/unity-addressable-importer
- 
+
  Features
 
 - Path pattern supports both wildcard     (*, ?) and regex
@@ -54,29 +54,13 @@ Addrssable 커스텀 소스
 
  
 
- 
-
- 
-
-![img](file:///C:/Users/82109/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
-
- 
-
- 
-
 https://forum.unity.com/threads/set-addressable-via-c.671938/#post-4730333
 
  
 
 C#으로 addressable을 설정 가능한지에 대한 질문과 관련된 코드
 
- 
 
- 
-
-![img](file:///C:/Users/82109/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg)
-
- 
 
  
 
