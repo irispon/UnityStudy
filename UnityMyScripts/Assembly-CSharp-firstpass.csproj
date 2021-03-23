@@ -1005,7 +1005,24 @@
       <HintPath>C:/Users/82109/Documents/UnityStudy/UnityMyScripts/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup></ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Seneral.NodeEditorFramework.Runtime.csproj">
+      <Project>{20E3DEA4-05BD-0B2F-F0F8-27996D9B9C97}</Project>
+      <Name>Seneral.NodeEditorFramework.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Seneral.NodeEditorFramework.Standard.csproj">
+      <Project>{BAA6D3AD-62B4-1F12-4194-F3BBE314503A}</Project>
+      <Name>Seneral.NodeEditorFramework.Standard</Name>
+    </ProjectReference>
+    <ProjectReference Include="Seneral.NodeEditorFramework.Editor.csproj">
+      <Project>{55701A0F-41BA-C926-0AAB-2D76A921403C}</Project>
+      <Name>Seneral.NodeEditorFramework.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Seneral.UndoPro.Runtime.csproj">
+      <Project>{D743C0CF-5837-8E36-5767-63116B6C1C0F}</Project>
+      <Name>Seneral.UndoPro.Runtime</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
