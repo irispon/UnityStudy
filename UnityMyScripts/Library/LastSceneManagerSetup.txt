@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Plugins/UniRx/Examples/Sample12Scene.unity
+- path: Assets/Scenes/testsc.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -29,6 +29,7 @@ public class Program
                     pthread.IdealProcessor = cpuNumber;
                     // 또는 이렇게. (Environment.ProcessorCount == 4인 경우, 0x0F flag 사용)
                     // pthread.ProcessorAffinity = new IntPtr(0x0F & (1 << cpuNumber));
+                    // dkadkfktn
                     break;
                 }
             }
