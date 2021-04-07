@@ -1,3 +1,4 @@
+using Manager;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
@@ -9,52 +10,36 @@ using WThread;
 public class WTThreadTest : MonoBehaviour
 {
 
-    private WTWorker worker;
+    private CharacterManager manager ;
     public bool mode;
+    public DefaultCahracter prefab;
+    int i=0;
     public void Awake()
     {
 
-        worker = new WTWorker(ChangeOriginal);
+        manager = CharacterManager.GET;
 
     }
     public void StartBtn()
     {
-        worker.Start();
+        Debug.Log(manager == null);
+        manager.StartManaging("default");
+
+        //manager.SetTick("default");
     }
     public void Stop()
     {
-        worker.Stop();
+        manager.StopManaging("default");
     }
     public void Change()
     {
-        mode = !mode;
-
-        if (mode)
-            worker.ChangeAction(ChangeInnerContext);
-        else
-            worker.ChangeAction(ChangeOriginal);
-
-   
-        
-    }
-    private void ChangeInnerContext()
-    {
-        Debug.Log("변경");
-        Thread.Sleep(2000);
-    }
-    private void ChangeOriginal()
-    {
-        Debug.Log("변경 전");
-        Thread.Sleep(2000);
-    }
-    public void OnDisable()
-    {
-
-           
     }
 
-    public void OnDestroy()
+    public void AddUnit()
     {
-        worker.Dispose();
+        DefaultCahracter pref = Instantiate(prefab);
+        pref.name = name + (i++);
+         pref.transform.position = new Vector3(Random.Range(580, 650), Random.Range(327, 350), Random.Range(-400,-350));
+
     }
 }

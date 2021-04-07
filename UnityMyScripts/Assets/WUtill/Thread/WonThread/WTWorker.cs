@@ -18,7 +18,7 @@ namespace WThread
         bool isWork=true;
         bool isStop;
         EventWaitHandle childWait = new EventWaitHandle(true, EventResetMode.ManualReset);
-        Action thread;
+        Action threadAtion;
         int delay;
         
         Queue<Action> actions;
@@ -36,8 +36,8 @@ namespace WThread
                     {
                         //  Debug.Log("test");
                         if (actions.Count > 0)
-                            thread = actions.Dequeue();
-                        thread?.Invoke();
+                            threadAtion = actions.Dequeue();
+                        threadAtion?.Invoke();
 
                         Thread.Sleep(delay);
                         if (isStop == true)
@@ -52,8 +52,8 @@ namespace WThread
                     {
                         //  Debug.Log("test");
                         if (actions.Count > 0)
-                            thread = actions.Dequeue();
-                             thread?.Invoke();
+                            threadAtion = actions.Dequeue();
+                             threadAtion?.Invoke();
 
                        
                             childWait.Reset();
@@ -61,7 +61,7 @@ namespace WThread
                     }
                     break;
             }
-
+            Debug.Log("dispose!");
             child.Dispose();
         }
 
@@ -113,7 +113,13 @@ namespace WThread
         {
             Start();
             isWork = false;
-            child.Dispose();
+           
+            //child.Dispose();
+        }
+
+        public void SetTick(int tick)
+        {
+            this.delay = tick;
         }
     }
 
