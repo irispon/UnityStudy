@@ -7,13 +7,15 @@ using System.Threading;
 using System;
 /// <summary>
 /// 유닛을 관리하는 매니저. 유닛의 분류에 따라 관리하는 워커들이 증가한다.
-/// 여기서 유의해야할 점은 추가를 할 수록 쓰레드수가 늘어나기 때문에 너무 많은 추가는 오히려 성능 저하를 일으킬 수 있음.
+/// 여기서 유의해야할 점은 유닛 분류를 추가를 할 수록 쓰레드수가 늘어나기 때문에 너무 많은 추가는 오히려 성능 저하를 일으킬 수 있을 것 같다.
 /// </summary>
 /// 
 
 namespace Manager
 {
-
+    /// <summary>
+    /// Thread와 Corutine 간의 동기화를 위해 만든 클래스
+    /// </summary>
     public class UnitCustomWait : CustomYieldInstruction
     {
         public bool isContinue;
@@ -28,11 +30,17 @@ namespace Manager
     }
 
 
-
+    /// <summary>
+    /// 캐릭터들을 관리하는 매니저
+    /// </summary>
     public class CharacterManager : MonoBehaviour
     {
         public static CharacterManager GET { get; private set; }
 
+
+        /// <summary>
+        /// Thread를 관리하는 클래스로 코루틴이 작동할 때는 멈춰있고. 코루틴이 멈춰있을 때 작동하는 방식을 통해 절차적인 형태로 구현하였다. 
+        /// </summary>
         public class stWorker
         {
            public EventWaitHandle threadWait = new EventWaitHandle(true, EventResetMode.ManualReset);

@@ -11,6 +11,9 @@ public class DefaultCahracter : ICharacter
     public Vector3 vector;
     public Queue<System.Action> ThreadAction = new Queue<System.Action>();
     int tick=0;
+    /// <summary>
+    /// Thread 상에서 돌아가는 Action이다.
+    /// </summary>
     public override void Action()
     {
 
@@ -31,6 +34,9 @@ public class DefaultCahracter : ICharacter
         }
     }
 
+    /// <summary>
+    /// 코루틴에서 돌아갈 작업들(ui 작업)을 돌린다. middleQue와 lowQue를 통해 따로 작업을 넣어줄 수 있다.
+    /// </summary>
     public override void Schedule()
     {
         tick++;
@@ -53,6 +59,10 @@ public class DefaultCahracter : ICharacter
 
 
     }
+    /// <summary>
+    /// 스레드에서 돌릴 작업들을 넣어둔다.
+    /// </summary>
+    /// <param name="action"></param>
     public virtual void AddThreadAction(Action action)
     {
         ThreadAction.Enqueue(action);
