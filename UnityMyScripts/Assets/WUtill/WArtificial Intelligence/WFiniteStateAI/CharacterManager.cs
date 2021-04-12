@@ -43,9 +43,9 @@ namespace Manager
         /// </summary>
         public class stWorker
         {
-           public EventWaitHandle threadWait = new EventWaitHandle(true, EventResetMode.ManualReset);
-           public EventWaitHandle corutineWait = new EventWaitHandle(true, EventResetMode.ManualReset);
-        
+            public EventWaitHandle threadWait = new EventWaitHandle(true, EventResetMode.ManualReset);
+            public EventWaitHandle corutineWait = new EventWaitHandle(true, EventResetMode.ManualReset);
+
 
             public List<ICharacter> characters = new List<ICharacter>();
             public List<ICharacter> tmpCharacters = new List<ICharacter>();
@@ -53,9 +53,10 @@ namespace Manager
             public UnitCustomWait wait = new UnitCustomWait();
 
             public IEnumerator schedule;
-            public stWorker(int tick=0)
+            public stWorker(int tick = 0)
             {
-                worker = new WTWorker(() => {
+                worker = new WTWorker(() =>
+                {
 
                     if (tmpCharacters.Count > 0)
                     {
@@ -69,7 +70,7 @@ namespace Manager
                     threadWait.Reset();
                     for (int i = 0; i < characters.Count; i++)
                     {
-                  //      Debug.Log("action char" + characters.Count);
+                        //      Debug.Log("action char" + characters.Count);
                         characters[i].Action();
 
                     }
@@ -99,7 +100,7 @@ namespace Manager
             public void Start()
             {
                 worker.Start();
-                
+
             }
             public void SetSchedule(IEnumerator schedule)
             {
@@ -127,18 +128,18 @@ namespace Manager
 
 
         }
-        public bool AddUnit(string key, ICharacter character, bool isNewable = false)
+        public bool AddUnit(ICharacter character, bool isNewable = false)
         {
             stWorker worker;
 
-            if (units.ContainsKey(key) == false)
+            if (units.ContainsKey(character.key) == false)
             {
                 if (isNewable == false)
                     return false;
                 else
                 {
                     worker = new stWorker();
-                    units.Add(key, worker);
+                    units.Add(character.key, worker);
                     IEnumerator schedule = Schedule(worker);
                     StartCoroutine(schedule);
                     worker.SetSchedule(schedule);
@@ -147,9 +148,18 @@ namespace Manager
 
             }
 
-            units[key].Add(character);
+            units[character.key].Add(character);
 
             return true;
+
+        }
+        public void RemoveUnit(ICharacter character)
+        {
+            units[character.key].Remove(character);
+
+        }
+        public void ChangeUnit(ICharacter character, string changeKey)
+        {
 
         }
         public void StartManaging(string key)
@@ -179,7 +189,7 @@ namespace Manager
                 Debug.LogError("해당 키 값이 없습니다!");
             }
         }
-        public void SetTick(string key,int tick)
+        public void SetTick(string key, int tick)
         {
             if (units.ContainsKey(key))
             {
@@ -196,7 +206,7 @@ namespace Manager
 
             for (; ; )
             {
-       
+
                 //  corutineWait.Reset();
                 for (int i = 0; i < worker.characters.Count; i++)
                 {
@@ -225,5 +235,8 @@ namespace Manager
 
 
 
-
+    public enum Faction
+    {
+        Player,Enemy
+    }
 }

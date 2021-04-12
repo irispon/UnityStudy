@@ -59,3 +59,17 @@ The following packages were updated:
   com.unity.test-framework from version 1.1.14 to 1.1.22
   com.unity.textmeshpro from version 2.0.1 to 3.0.1
   com.unity.timeline from version 1.2.14 to 1.4.6
+
+=== Thu Apr  8 20:30:55 2021
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.2d.sprite@1.0.0
+  com.unity.2d.tilemap@1.0.0
+  com.unity.cinemachine@2.5.0
+  com.unity.ext.nunit@1.0.5
+  com.unity.polybrush@1.0.2
+  com.unity.postprocessing@2.3.0
+  com.unity.probuilder@4.2.3

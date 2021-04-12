@@ -12,13 +12,13 @@ public class WTThreadTest : MonoBehaviour
 
     private CharacterManager manager ;
     public bool mode;
-    public DefaultCahracter prefab;
+    public TestCharacter prefab;
     int i=0;
     public void Awake()
     {
 
         manager = CharacterManager.GET;
-
+        
     }
     public void StartBtn()
     {
@@ -37,7 +37,7 @@ public class WTThreadTest : MonoBehaviour
 
     public void AddUnit()
     {
-        DefaultCahracter pref = Instantiate(prefab);
+        TestCharacter pref = Instantiate(prefab);
         pref.name = name + (i++);
          pref.transform.position = new Vector3(Random.Range(580, 650), Random.Range(327, 350), Random.Range(-400,-350));
 
