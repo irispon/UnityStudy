@@ -56,165 +56,88 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpListenerContext.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\System\IObserver.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\LineState.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\TimeInterval.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\ContinueWith.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\MainThreadScheduler.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Server\HttpRequestEventArgs.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Observable.Concurrency.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\HttpBase.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\ToArray.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\HttpResponse.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\CloseStatusCode.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableUpdateTrigger.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Single.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\EndPointManager.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Logger.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Timestamp.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpStreamAsyncResult.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Diagnostics\ObservableLogger.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Diagnostics\LogEntry.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Notification.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\EndPointListener.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\InternalUtil\MicroCoroutine.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Schedulers\IScheduler.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\ThrottleFirst.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\SkipUntil.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Synchronize.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Disposables\StableCompositeDisposable.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Disposables\CancellationDisposable.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Timeout.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\IgnoreElements.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\TypedMonoBehaviour.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Observable.Aggregate.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableSubmitTrigger.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Disposables\SingleAssignmentDisposable.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Server\WebSocketServiceManager.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Observable.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Server\ServerState.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\ToObservable.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\CancellationToken.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\CompressionMethod.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\System\IObservable.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Fin.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableCanvasGroupChangedTrigger.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\AssemblyInfo.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\CoroutineAsyncBridge.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Subjects\SubjectExtensions.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\HttpRequest.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Do.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Sample.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Return.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\CookieException.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\WebHeaderCollection.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\LifetimeDisposableExtensions.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\TakeWhile.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\PairWise.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableBeginDragTrigger.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableVisibleTrigger.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Repeat.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\InspectableReactiveProperty.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\Chunk.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\InspectorDisplayDrawer.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpRequestHeader.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\AsObservable.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\InternalUtil\ImmutableList.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Tasks\TaskObservableExtensions.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTransformChangedTrigger.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Notifiers\MessageBroker.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\UnityEventExtensions.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\AsyncOperationExtensions.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Zip.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\CloseEventArgs.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\AuthenticationResponse.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\ResponseStream.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDropTrigger.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Observable.Awaiter.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Operators\BatchFrame.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpUtility.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Notifiers\BooleanNotifier.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Aggregate.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableRectTransformTrigger.cs" />
     <Compile Include="Assets\Plugins\socket.io\SocketInitializer.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpListenerException.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Notifiers\CountNotifier.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\AotSafeExtensions.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\System\IProgress.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableCancelTrigger.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Timestamped.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Observable.Paging.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Subjects\ConnectableObservable.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\WebSockets\HttpListenerWebSocketContext.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\ClientSslConfiguration.cs" />
     <Compile Include="Assets\Plugins\socket.io\WebSocketWrapper.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\TakeUntil.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\Cookie.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\ObservableMonoBehaviour.cs" />
     <Compile Include="Assets\Plugins\socket.io\Socket.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Schedulers\ImmediateScheduler.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Cast.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Observable.Concatenate.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpStatusCode.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpListenerPrefix.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Skip.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\OperatorObservableBase.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\ObserveOn.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\WhenAll.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Server\WebSocketBehavior.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Range.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\SubscribeOn.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpListenerPrefixCollection.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpDigestIdentity.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Observable.Joins.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\GroupBy.cs" />
-    <Compile Include="Assets\Plugins\socket.io\SystemEvent.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Observable.Unity.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Merge.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Schedulers\ThreadPoolScheduler.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\RepeatSafe.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpListener.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDeselectTrigger.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableMouseTrigger.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\WebSocketFrame.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\TimeInterval.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\WebSocketState.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\System\IOptimizedObservable.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Operators\SampleFrame.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\UnityGraphicExtensions.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Amb.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\ChunkStream.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Server\WebSocketServiceHost.cs" />
     <Compile Include="Assets\Plugins\socket.io\Decoder.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\SelectMany.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerClickTrigger.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Dematerialize.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableUpdateSelectedTrigger.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Observable.Binding.cs" />
-    <Compile Include="Assets\Plugins\socket.io\TimeStamp.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableCollision2DTrigger.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Start.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\TakeLast.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Examples\Sample09_EventHandling.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Operators\FrameInterval.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Select.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\WebSocketException.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Mask.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Defer.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Observable.FromAsync.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Subjects\Subject.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\UniRxSynchronizationContext.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Server\HttpServer.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\ChunkedRequestStream.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableEventTrigger.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\QueryStringCollection.cs" />
     <Compile Include="Assets\Plugins\UniRx\Examples\Sample02_ObservableTriggers.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\ObserveExtensions.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\UnityEqualityComparer.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Materialize.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Scan.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\AuthenticationSchemes.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableStateMachineTrigger.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\PayloadData.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\OperatorObserverBase.cs" />
@@ -222,134 +145,66 @@
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityWinRTBridge\Thread.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\ZipLatest.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\System\Tuple.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Server\IWebSocketSession.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\ReactiveProperty.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Opcode.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Examples\Sample08_DetectDoubleClick.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Empty.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Subjects\BehaviorSubject.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Server\WebSocketServer.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\InternalUtil\PriorityQueue.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Disposables\DictionaryDisposable.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTrigger2DTrigger.cs" />
     <Compile Include="Assets\Plugins\socket.io\Singleton.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpConnection.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Operators\DelayFrameSubscription.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Server\WebSocketServiceHost`1.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\WebSockets\TcpListenerWebSocketContext.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Examples\Sample05_ConvertFromCoroutine.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDestroyTrigger.cs" />
     <Compile Include="Assets\Plugins\socket.io\SocketManager.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Notifiers\ScheduledNotifier.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\RequestStream.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\ScenePlaybackDetector.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\ForEachAsync.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerBase.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Observable.Time.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\ToList.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableEnableTrigger.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\InternalUtil\ListObserver.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpListenerRequest.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Throw.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Disposables\SerialDisposable.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\OfType.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Operators\RepeatUntil.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Pair.cs" />
     <Compile Include="Assets\Plugins\UniRx\Examples\Sample12_ReactiveProperty.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableAnimatorTrigger.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Disposables\BooleanDisposable.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Observable.Conversions.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\First.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\ReactiveCommand.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Disposables\ICancelable.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Operators\ThrottleFrame.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableLateUpdateTrigger.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Diagnostics\LogEntryExtensions.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerTrigger.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\InputState.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Disposables\MultipleAssignmentDisposable.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableEndDragTrigger.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Throttle.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\ErrorEventArgs.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\System\Unit.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Never.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\InputChunkState.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Catch.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityWinRTBridge\ThreadPoolScheduler_UnityWinRT.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\FromEvent.cs" />
     <Compile Include="Assets\Plugins\UniRx\Examples\Sample06_ConvertToCoroutine.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Operators\SubscribeOnMainThread.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\AuthenticationChallenge.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Where.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\ReactiveDictionary.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Rsv.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\SelectWhere.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\WhereSelect.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerExtensions.Component.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Timer.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Schedulers\CurrentThreadScheduler.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Ext.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableInitializePotentialDragTrigger.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Server\WebSocketSessionManager.cs" />
     <Compile Include="Assets\Plugins\socket.io\WebSocketTrigger.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Concat.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Observable.Blocking.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpBasicIdentity.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Examples\Sample13_ToDoApp.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\UnityUIComponentExtensions.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Subjects\ReplaySubject.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Switch.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\MainThreadDispatcher.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\WebSocket.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\CombineLatest.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\ReadBufferState.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\CookieCollection.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\InternalUtil\AscynLock.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Disposables\CompositeDisposable.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\ReactiveCollection.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Operators\FrameTimeInterval.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\SslConfiguration.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\SkipWhile.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Finally.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableParticleTrigger.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableScrollTrigger.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\FrameInterval.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\DistinctUntilChanged.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpListenerResponse.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Examples\Sample01_ObservableWWW.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\AsSingleUnitObservable.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\InternalUtil\ThreadSafeQueueWorker.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerUpTrigger.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\NetworkCredential.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Operators\ThrottleFirstFrame.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Observable.Creation.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\WithLatestFrom.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDragTrigger.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Subjects\AsyncSubject.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\InternalUtil\ReflectionAccessor.cs" />
     <Compile Include="Assets\Plugins\socket.io\Packet.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableFixedUpdateTrigger.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerEnterTrigger.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Disposables\RefCountDisposable.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\YieldInstructionCache.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Examples\Sample04_ConvertFromUnityCallback.cs" />
     <Compile Include="Assets\Plugins\socket.io\Encoder.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\YieldInstructionCache.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpResponseHeader.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Wait.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerDownTrigger.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Examples\Sample07_OrchestratIEnumerator.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpListenerAsyncResult.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Diagnostics\UnityDebugSink.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Create.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\LazyTask.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\ServerSslConfiguration.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerExitTrigger.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\AuthenticationBase.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Schedulers\Scheduler.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableSelectTrigger.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\SynchronizedObserver.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\LogLevel.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Observer.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableCollisionTrigger.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\RefCount.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerExtensions.cs" />
@@ -358,35 +213,180 @@
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Operators\DelayFrame.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\ByteOrder.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Subjects\ISubject.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Buffer.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Operators\FromCoroutine.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpHeaderInfo.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Toolkit\ObjectPool.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Observable.Events.cs" />
     <Compile Include="Assets\Plugins\UniRx\Examples\Sample10_MainThreadDispatcher.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Observable.ErrorHandling.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\EventPattern.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpVersion.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\AsUnitObservable.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\LogData.cs" />
-    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\WebSockets\WebSocketContext.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Distinct.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\WebSockets\WebSocketContext.cs" />
     <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpHeaderType.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\InternalUtil\ScheduledItem.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\PresenterBase.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Operators\TimeoutFrame.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Diagnostics\Logger.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\ObservableWWW.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Delay.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Disposables\DisposableExtensions.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Disposables\ScheduledDisposable.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableMoveTrigger.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Diagnostics\ObservableDebugExtensions.cs" />
     <Compile Include="Assets\Plugins\UniRx\Examples\Sample11_Logger.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Take.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Disposables\Disposable.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\StartWith.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\DelaySubscription.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpListenerContext.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\TimeInterval.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\LineState.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\ContinueWith.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\MainThreadScheduler.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\HttpResponse.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\EndPointManager.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Timestamp.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpStreamAsyncResult.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Diagnostics\ObservableLogger.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\EndPointListener.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Schedulers\IScheduler.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\SkipUntil.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Synchronize.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Disposables\StableCompositeDisposable.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Disposables\CancellationDisposable.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Timeout.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\TypedMonoBehaviour.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Observable.Aggregate.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Disposables\SingleAssignmentDisposable.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Server\WebSocketServiceManager.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Observable.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\ToObservable.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\CompressionMethod.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\System\IObservable.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableCanvasGroupChangedTrigger.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\CoroutineAsyncBridge.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Do.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\CookieException.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\WebHeaderCollection.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableVisibleTrigger.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\InspectorDisplayDrawer.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\AsObservable.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Zip.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\CloseEventArgs.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpUtility.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Notifiers\BooleanNotifier.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableRectTransformTrigger.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpListenerException.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Notifiers\CountNotifier.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Timestamped.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\WebSockets\HttpListenerWebSocketContext.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\ClientSslConfiguration.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Schedulers\ImmediateScheduler.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Observable.Concatenate.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Skip.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\OperatorObservableBase.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\ObserveOn.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\SubscribeOn.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\GroupBy.cs" />
+    <Compile Include="Assets\Plugins\socket.io\SystemEvent.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Observable.Unity.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Merge.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\RepeatSafe.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpListener.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDeselectTrigger.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\WebSocketState.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\System\IOptimizedObservable.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\UnityGraphicExtensions.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Server\WebSocketServiceHost.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\SelectMany.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerClickTrigger.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Dematerialize.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableUpdateSelectedTrigger.cs" />
+    <Compile Include="Assets\Plugins\socket.io\TimeStamp.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Start.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\TakeLast.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Examples\Sample09_EventHandling.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Select.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\WebSocketException.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Defer.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Observable.FromAsync.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Subjects\Subject.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\UniRxSynchronizationContext.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\ChunkedRequestStream.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Materialize.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\AuthenticationSchemes.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Server\IWebSocketSession.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Opcode.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Examples\Sample08_DetectDoubleClick.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\InternalUtil\PriorityQueue.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Disposables\DictionaryDisposable.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTrigger2DTrigger.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpConnection.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Server\WebSocketServiceHost`1.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\WebSockets\TcpListenerWebSocketContext.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Examples\Sample05_ConvertFromCoroutine.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\ForEachAsync.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Observable.Time.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\ToList.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableEnableTrigger.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\InternalUtil\ListObserver.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Throw.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Disposables\SerialDisposable.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\OfType.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Pair.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableAnimatorTrigger.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Disposables\BooleanDisposable.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Observable.Conversions.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Disposables\ICancelable.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\First.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableLateUpdateTrigger.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Diagnostics\LogEntryExtensions.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\InputState.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableEndDragTrigger.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Never.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\InputChunkState.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Catch.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityWinRTBridge\ThreadPoolScheduler_UnityWinRT.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\AuthenticationChallenge.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Where.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\ReactiveDictionary.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Rsv.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\SelectWhere.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerExtensions.Component.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Schedulers\CurrentThreadScheduler.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Ext.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Server\WebSocketSessionManager.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Observable.Blocking.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpBasicIdentity.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Examples\Sample13_ToDoApp.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Subjects\ReplaySubject.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Switch.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\CombineLatest.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\ReadBufferState.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Disposables\CompositeDisposable.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\SkipWhile.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableParticleTrigger.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpListenerResponse.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Examples\Sample01_ObservableWWW.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\AsSingleUnitObservable.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\InternalUtil\ThreadSafeQueueWorker.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerUpTrigger.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Operators\ThrottleFirstFrame.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDragTrigger.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Subjects\AsyncSubject.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\InternalUtil\ReflectionAccessor.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Examples\Sample04_ConvertFromUnityCallback.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Examples\Sample07_OrchestratIEnumerator.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpListenerAsyncResult.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Create.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\AuthenticationBase.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\SynchronizedObserver.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\LogLevel.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Observer.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Buffer.cs" />
+    <Compile Include="Assets\Plugins\socket.io\websocket-sharp\Net\HttpHeaderInfo.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Toolkit\ObjectPool.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\AsUnitObservable.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\InternalUtil\ScheduledItem.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableMoveTrigger.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Disposables\DisposableExtensions.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Disposables\ScheduledDisposable.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Diagnostics\ObservableDebugExtensions.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Take.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\DefaultIfEmpty.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Last.cs" />
   </ItemGroup>
@@ -994,11 +994,11 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.CacheServer">
       <HintPath>Library\ScriptAssemblies\UnityEditor.CacheServer.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Addressables">
-      <HintPath>Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
@@ -1006,8 +1006,11 @@
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
@@ -1015,17 +1018,20 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.ScriptableBuildPipeline">
-      <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Addressables.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Addressables.Editor.dll</HintPath>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ResourceManager">
       <HintPath>Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.ScriptableBuildPipeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -1036,67 +1042,53 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.ProBuilder">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Polybrush.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Polybrush.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Polybrush">
       <HintPath>Library\ScriptAssemblies\Unity.Polybrush.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="com.unity.cinemachine.editor">
       <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline">
+      <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Addressables.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Seneral.NodeEditorFramework.Standard.csproj">
-      <Project>{BAA6D3AD-62B4-1F12-4194-F3BBE314503A}</Project>
-      <Name>Seneral.NodeEditorFramework.Standard</Name>
-    </ProjectReference>
-    <ProjectReference Include="Seneral.NodeEditorFramework.Editor.csproj">
-      <Project>{55701A0F-41BA-C926-0AAB-2D76A921403C}</Project>
-      <Name>Seneral.NodeEditorFramework.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Seneral.NodeEditorFramework.Runtime.csproj">
-      <Project>{20E3DEA4-05BD-0B2F-F0F8-27996D9B9C97}</Project>
-      <Name>Seneral.NodeEditorFramework.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Seneral.UndoPro.Runtime.csproj">
-      <Project>{D743C0CF-5837-8E36-5767-63116B6C1C0F}</Project>
-      <Name>Seneral.UndoPro.Runtime</Name>
-    </ProjectReference>
     <ProjectReference Include="Skybox3DRuntime.csproj">
       <Project>{EADED10D-58DF-FF17-557A-6B7E3E42A336}</Project>
       <Name>Skybox3DRuntime</Name>
     </ProjectReference>
+    <ProjectReference Include="Seneral.NodeEditorFramework.Standard.csproj">
+      <Project>{BAA6D3AD-62B4-1F12-4194-F3BBE314503A}</Project>
+      <Name>Seneral.NodeEditorFramework.Standard</Name>
+    </ProjectReference>
     <ProjectReference Include="PackageManagerCheck.csproj">
       <Project>{0318C421-D463-A03C-8B80-560B0369013B}</Project>
       <Name>PackageManagerCheck</Name>
+    </ProjectReference>
+    <ProjectReference Include="Seneral.NodeEditorFramework.Editor.csproj">
+      <Project>{55701A0F-41BA-C926-0AAB-2D76A921403C}</Project>
+      <Name>Seneral.NodeEditorFramework.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponents.csproj">
       <Project>{2DEF1E5A-EE4C-1CCA-62DE-351499FB2BA1}</Project>
@@ -1105,6 +1097,14 @@
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
       <Project>{0FECE0AD-6016-97E0-4D7E-816DA18F0C69}</Project>
       <Name>NavMeshComponentsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Seneral.UndoPro.Runtime.csproj">
+      <Project>{D743C0CF-5837-8E36-5767-63116B6C1C0F}</Project>
+      <Name>Seneral.UndoPro.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Seneral.NodeEditorFramework.Runtime.csproj">
+      <Project>{20E3DEA4-05BD-0B2F-F0F8-27996D9B9C97}</Project>
+      <Name>Seneral.NodeEditorFramework.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="SimpleSFXRuntime.csproj">
       <Project>{73F860BB-481B-DB11-3439-4C8C591BF81A}</Project>

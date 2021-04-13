@@ -56,56 +56,56 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Utill\Asset\LightningBolt\Editor\LightningBoltEditor.cs" />
-    <Compile Include="Assets\Utill\Editor\AnimationEventCopier.cs" />
-    <Compile Include="Assets\WUtill\Data\Editor\WCreateAssetBundlesEditor.cs" />
-    <Compile Include="Assets\Utill\Editor\FieldOfViewEditor.cs" />
-    <Compile Include="Assets\3DGamekit\Scripts\Game\Localization\Editor\TranslatedPhrasesEditor.cs" />
+    <Compile Include="Assets\3DGamekit\Packages\DefaultPlayables\LightControl\Editor\LightControlDrawer.cs" />
+    <Compile Include="Assets\3DGamekit\Packages\DefaultPlayables\Editor\TimelinePlayableWizard.cs" />
+    <Compile Include="Assets\3DGamekit\Packages\DefaultPlayables\ScreenFader\Editor\ScreenFaderDrawer.cs" />
+    <Compile Include="Assets\3DGamekit\Packages\DefaultPlayables\TransformTween\Editor\TransformTweenDrawer.cs" />
+    <Compile Include="Assets\3DGamekit\Packages\Interactive\Editor\SimpleTranslatorEditor.cs" />
     <Compile Include="Assets\3DGamekit\Packages\SimpleSFX\Editor\SimpleFXEditor.cs" />
-    <Compile Include="Assets\3DGamekit\Scripts\Game\Localization\Editor\TranslatorEditor.cs" />
-    <Compile Include="Assets\3DGamekit\Packages\WorldBuilding\Editor\InstancePainterEditor.Inspector.cs" />
-    <Compile Include="Assets\3DGamekit\Packages\Interactive\Editor\SendGameCommandEditor.cs" />
     <Compile Include="Assets\3DGamekit\Scripts\Game\Core\Editor\ScenarioControllerEditor.cs" />
+    <Compile Include="Assets\Utill\Editor\AnimationEventCopier.cs" />
+    <Compile Include="Assets\3DGamekit\Scripts\Editor\NewSceneCreator.cs" />
+    <Compile Include="Assets\3DGamekit\Packages\DefaultPlayables\TimeDilation\Editor\TimeDilationDrawer.cs" />
+    <Compile Include="Assets\3DGamekit\Packages\SceneManagement\Editor\DataPersisterEditor.cs" />
+    <Compile Include="Assets\3DGamekit\Packages\DefaultPlayables\TextSwitcher\Editor\TextSwitcherDrawer.cs" />
     <Compile Include="Assets\3DGamekit\Packages\SceneManagement\Editor\SceneNameDrawer.cs" />
-    <Compile Include="Assets\3DGamekit\Scripts\Game\Timeline\MaterialSwitcher\Editor\MaterialSwitcherDrawer.cs" />
-    <Compile Include="Assets\3DGamekit\Scripts\Game\Core\Editor\AddObjectiveSubEditor.cs" />
     <Compile Include="Assets\3DGamekit\Packages\WorldBuilding\Editor\MegaSmartObjectEditor.cs" />
+    <Compile Include="Assets\3DGamekit\Scripts\Game\Core\Editor\AddObjectiveSubEditor.cs" />
+    <Compile Include="Assets\3DGamekit\Scripts\Game\Player\Editor\CheckpointGroupEditor.cs" />
+    <Compile Include="Assets\3DGamekit\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\3DGamekit\Scripts\Editor\CheckpointEditor.cs" />
+    <Compile Include="Assets\3DGamekit\Packages\WorldBuilding\Editor\InstancePainterEditor.cs" />
+    <Compile Include="Assets\3DGamekit\Packages\SceneManagement\Editor\ParameterSetterDrawer.cs" />
+    <Compile Include="Assets\3DGamekit\Scripts\Game\Core\Editor\SubEditor.cs" />
     <Compile Include="Assets\3DGamekit\Packages\Interactive\Editor\SimpleTransformerEditor.cs" />
+    <Compile Include="Assets\3DGamekit\Scripts\Game\Timeline\SetLocation\Editor\SetLocationDrawer.cs" />
+    <Compile Include="Assets\3DGamekit\Packages\SceneManagement\Editor\TransitionStartEditor.cs" />
+    <Compile Include="Assets\Utill\Editor\FieldOfViewEditor.cs" />
+    <Compile Include="Assets\3DGamekit\Scripts\Game\Timeline\SceneReloader\Editor\SceneReloaderDrawer.cs" />
+    <Compile Include="Assets\3DGamekit\Packages\WorldBuilding\Editor\PaletteWizard.cs" />
+    <Compile Include="Assets\3DGamekit\Packages\WorldBuilding\Editor\InstancePainterEditor.Inspector.cs" />
+    <Compile Include="Assets\Utill\Asset\LightningBolt\Editor\LightningBoltEditor.cs" />
+    <Compile Include="Assets\3DGamekit\Scripts\Editor\FilterLOD.cs" />
+    <Compile Include="Assets\3DGamekit\Packages\WorldBuilding\Editor\InstancePainterEditor.SceneGUI.cs" />
     <Compile Include="Assets\3DGamekit\Packages\DefaultPlayables\StandardMaterialEmission\Editor\StandardMaterialEmissionDrawer.cs" />
+    <Compile Include="Assets\3DGamekit\Scripts\Game\Helpers\Editor\CameraSettingsEditor.cs" />
+    <Compile Include="Assets\3DGamekit\Packages\Interactive\Editor\CommandReceiverEditor.cs" />
+    <Compile Include="Assets\3DGamekit\Scripts\Game\Localization\Editor\TranslatedPhrasesEditor.cs" />
+    <Compile Include="Assets\3DGamekit\Packages\Interactive\Editor\SendGameCommandEditor.cs" />
+    <Compile Include="Assets\3DGamekit\Packages\SimpleSFX\Editor\SynthLayerDrawer.cs" />
+    <Compile Include="Assets\3DGamekit\Scripts\Editor\AutoSetQualitySetting.cs" />
+    <Compile Include="Assets\3DGamekit\Scripts\Game\Camera\Editor\LayerCullDistancesEditor.cs" />
+    <Compile Include="Assets\WUtill\Data\Editor\WCreateAssetBundlesEditor.cs" />
+    <Compile Include="Assets\3DGamekit\Scripts\Game\Localization\Editor\TranslatorEditor.cs" />
+    <Compile Include="Assets\3DGamekit\Scripts\Game\Timeline\MaterialSwitcher\Editor\MaterialSwitcherDrawer.cs" />
     <Compile Include="Assets\3DGamekit\Scripts\Editor\AddCollidersToHierarchy.cs" />
     <Compile Include="Assets\3DGamekit\Scripts\Game\Localization\Editor\PhraseDrawer.cs" />
     <Compile Include="Assets\3DGamekit\Scripts\Game\Timeline\TimeMachine\Editor\TimeMachineClipInspector.cs" />
-    <Compile Include="Assets\3DGamekit\Scripts\Game\Helpers\Editor\CameraSettingsEditor.cs" />
-    <Compile Include="Assets\3DGamekit\Packages\DefaultPlayables\LightControl\Editor\LightControlDrawer.cs" />
-    <Compile Include="Assets\3DGamekit\Packages\SimpleSFX\Editor\SynthLayerDrawer.cs" />
-    <Compile Include="Assets\3DGamekit\Scripts\Editor\NewSceneCreator.cs" />
-    <Compile Include="Assets\3DGamekit\Packages\DefaultPlayables\Editor\TimelinePlayableWizard.cs" />
-    <Compile Include="Assets\3DGamekit\Scripts\Game\Timeline\SetLocation\Editor\SetLocationDrawer.cs" />
-    <Compile Include="Assets\3DGamekit\Packages\DefaultPlayables\TimeDilation\Editor\TimeDilationDrawer.cs" />
-    <Compile Include="Assets\3DGamekit\Scripts\Game\Player\Editor\CheckpointGroupEditor.cs" />
-    <Compile Include="Assets\3DGamekit\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
-    <Compile Include="Assets\3DGamekit\Packages\DefaultPlayables\ScreenFader\Editor\ScreenFaderDrawer.cs" />
-    <Compile Include="Assets\3DGamekit\Packages\SceneManagement\Editor\TransitionStartEditor.cs" />
-    <Compile Include="Assets\3DGamekit\Packages\SceneManagement\Editor\DataPersisterEditor.cs" />
-    <Compile Include="Assets\3DGamekit\Packages\Interactive\Editor\CommandReceiverEditor.cs" />
-    <Compile Include="Assets\3DGamekit\Scripts\Editor\CheckpointEditor.cs" />
-    <Compile Include="Assets\3DGamekit\Packages\WorldBuilding\Editor\InstancePainterEditor.cs" />
     <Compile Include="Assets\3DGamekit\Scripts\Game\Timeline\AudioSnapshot\Editor\AudioSnapshotDrawer.cs" />
-    <Compile Include="Assets\3DGamekit\Packages\DefaultPlayables\TextSwitcher\Editor\TextSwitcherDrawer.cs" />
-    <Compile Include="Assets\3DGamekit\Scripts\Editor\FilterLOD.cs" />
-    <Compile Include="Assets\3DGamekit\Scripts\Game\Timeline\SceneReloader\Editor\SceneReloaderDrawer.cs" />
-    <Compile Include="Assets\3DGamekit\Packages\SceneManagement\Editor\ParameterSetterDrawer.cs" />
     <Compile Include="Assets\3DGamekit\Packages\Interactive\Editor\TeleporterGizmo.cs" />
     <Compile Include="Assets\3DGamekit\Scripts\Game\Player\Editor\PlayerControllerEditor.cs" />
     <Compile Include="Assets\3DGamekit\Scripts\Game\Timeline\CutsceneScriptControl\Editor\CutsceneScriptControlDrawer.cs" />
-    <Compile Include="Assets\3DGamekit\Packages\WorldBuilding\Editor\PaletteWizard.cs" />
-    <Compile Include="Assets\3DGamekit\Scripts\Editor\AutoSetQualitySetting.cs" />
-    <Compile Include="Assets\3DGamekit\Scripts\Game\Camera\Editor\LayerCullDistancesEditor.cs" />
-    <Compile Include="Assets\3DGamekit\Packages\DefaultPlayables\TransformTween\Editor\TransformTweenDrawer.cs" />
-    <Compile Include="Assets\3DGamekit\Packages\Interactive\Editor\SimpleTranslatorEditor.cs" />
-    <Compile Include="Assets\3DGamekit\Scripts\Game\Core\Editor\SubEditor.cs" />
     <Compile Include="Assets\3DGamekit\Scripts\Editor\ExportTerrain.cs" />
-    <Compile Include="Assets\3DGamekit\Packages\WorldBuilding\Editor\InstancePainterEditor.SceneGUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -723,11 +723,11 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.CacheServer">
       <HintPath>Library\ScriptAssemblies\UnityEditor.CacheServer.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Addressables">
-      <HintPath>Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
@@ -735,8 +735,11 @@
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
@@ -744,17 +747,20 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.ScriptableBuildPipeline">
-      <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Addressables.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Addressables.Editor.dll</HintPath>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ResourceManager">
       <HintPath>Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.ScriptableBuildPipeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -765,41 +771,35 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.ProBuilder">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Polybrush.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Polybrush.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Polybrush">
       <HintPath>Library\ScriptAssemblies\Unity.Polybrush.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="com.unity.cinemachine.editor">
       <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline">
+      <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Addressables.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -811,29 +811,21 @@
       <Project>{E4688758-4FBE-60CB-FFA0-246DD1E830EA}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="Seneral.NodeEditorFramework.Standard.csproj">
-      <Project>{BAA6D3AD-62B4-1F12-4194-F3BBE314503A}</Project>
-      <Name>Seneral.NodeEditorFramework.Standard</Name>
-    </ProjectReference>
-    <ProjectReference Include="Seneral.NodeEditorFramework.Editor.csproj">
-      <Project>{55701A0F-41BA-C926-0AAB-2D76A921403C}</Project>
-      <Name>Seneral.NodeEditorFramework.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Seneral.NodeEditorFramework.Runtime.csproj">
-      <Project>{20E3DEA4-05BD-0B2F-F0F8-27996D9B9C97}</Project>
-      <Name>Seneral.NodeEditorFramework.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Seneral.UndoPro.Runtime.csproj">
-      <Project>{D743C0CF-5837-8E36-5767-63116B6C1C0F}</Project>
-      <Name>Seneral.UndoPro.Runtime</Name>
-    </ProjectReference>
     <ProjectReference Include="Skybox3DRuntime.csproj">
       <Project>{EADED10D-58DF-FF17-557A-6B7E3E42A336}</Project>
       <Name>Skybox3DRuntime</Name>
     </ProjectReference>
+    <ProjectReference Include="Seneral.NodeEditorFramework.Standard.csproj">
+      <Project>{BAA6D3AD-62B4-1F12-4194-F3BBE314503A}</Project>
+      <Name>Seneral.NodeEditorFramework.Standard</Name>
+    </ProjectReference>
     <ProjectReference Include="PackageManagerCheck.csproj">
       <Project>{0318C421-D463-A03C-8B80-560B0369013B}</Project>
       <Name>PackageManagerCheck</Name>
+    </ProjectReference>
+    <ProjectReference Include="Seneral.NodeEditorFramework.Editor.csproj">
+      <Project>{55701A0F-41BA-C926-0AAB-2D76A921403C}</Project>
+      <Name>Seneral.NodeEditorFramework.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponents.csproj">
       <Project>{2DEF1E5A-EE4C-1CCA-62DE-351499FB2BA1}</Project>
@@ -842,6 +834,14 @@
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
       <Project>{0FECE0AD-6016-97E0-4D7E-816DA18F0C69}</Project>
       <Name>NavMeshComponentsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Seneral.UndoPro.Runtime.csproj">
+      <Project>{D743C0CF-5837-8E36-5767-63116B6C1C0F}</Project>
+      <Name>Seneral.UndoPro.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Seneral.NodeEditorFramework.Runtime.csproj">
+      <Project>{20E3DEA4-05BD-0B2F-F0F8-27996D9B9C97}</Project>
+      <Name>Seneral.NodeEditorFramework.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="SimpleSFXRuntime.csproj">
       <Project>{73F860BB-481B-DB11-3439-4C8C591BF81A}</Project>
