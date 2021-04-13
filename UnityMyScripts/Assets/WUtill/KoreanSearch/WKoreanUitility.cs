@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace WKoreanSearch
-{
+{//teset 용도 주석
     public class WKoreanUitility
     {
         //한글 초성 중성 종성을 분리시켜주는 유틸리티입니다. 원우
