@@ -423,7 +423,6 @@
      <None Include="Assets\3DGamekit\Art\Shaders\Terrain.shader" />
      <None Include="Assets\3DGamekit\Packages\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\3DGamekit\Packages\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
-     <None Include="Assets\WUtill\NodeAI\123124.txt" />
      <None Include="Assets\3DGamekit\Art\Shaders\GroundFog.shader" />
      <None Include="Assets\3DGamekit\Packages\EyeShader\Shaders\EyeBallsHD.shader" />
      <None Include="Assets\3DGamekit\Packages\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
